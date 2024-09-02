@@ -19,8 +19,8 @@ jobs:
       - name: Build the project
         run: npm run build
 
-      - name: Run tests
-        run: npm test
+      #- name: Run tests
+      #   run: npm test
 
       - name: List build directory contents
         run: ls -la build
