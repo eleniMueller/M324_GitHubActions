@@ -1,0 +1,20 @@
+#name: Setup-node demo
+#
+#jobs:
+#  build:
+#    runs-on: ubuntu-latest
+#
+#    steps:
+#      - name: Set up Node.js
+          # uses: actions/setup-node@v3
+          #with:
+        #node-version: '16' #Simple, meist verbretetse Variante
+          #node-version-file: '' #Alternativ kann auch eine Datei angegeben werden, die die Node.js-Version enthält
+          #check-latest: true #Wenn true, wird die neueste Version von Node.js installiert
+          #architectures: x64 #Die Architektur, für die Node.js installiert werden soll - Default mässig wird die vom System verwendet
+          #token: ${{ secrets.GITHUB_TOKEN }} #Ein GitHub-Token, welches erforderlich ist, wenn man die Action von  GHES ausführt und etwas von GitHub braucht
+          #cache: npm #Wenn true, wird npm oder ya installiert
+          #cache-dependency-path: ./node_modules #Der Pfad, in dem die Abhängigkeiten installiert werden sollen
+          #registry-url: https://registry.npmjs.org #Die URL des NPM-Registrierungsservers
+          #scope: public #Der Bereich, für den die Berechtigungen erteilt werden sollen
+          #always-auth: true #Wenn true, wird der Authentifizierungsheader immer gesendet
